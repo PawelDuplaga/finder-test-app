@@ -24,13 +24,13 @@ import travelInsuranceSvg from 'public/categoriesIcons/travel-insurance.svg';
 const ICON_HREF = "https://www.finder.com.au/";
 
 
-export type TCategoryTileProps = {
+export type TCategoryTileElements = {
     title : string,
     icon : string,
     href : string,
 }
 
-export const categoriesTilesData : Array<TCategoryTileProps> = [
+export const categoriesTilesData : Array<TCategoryTileElements> = [
     {
         title : 'Credit Cards',
         icon : creditCardsSvg,

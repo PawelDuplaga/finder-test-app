@@ -1,18 +1,22 @@
 'use client'
 
 import React, { useMemo, useState } from 'react'
-import { categoriesTilesData } from '@/lib/categoriesTilesData'
+import { TCategoryTileElements } from '@/lib/categoriesTilesData'
 import CategoryTile from '../CategoryTile'
 import { IoIosArrowUp } from 'react-icons/io'
-import Link from 'next/link'
+
+type CategoryGridProps = {
+    categoriesTilesData : Array<TCategoryTileElements>
+}
 
 
-
-const CategoryGrid = () => {
+const CategoryGrid = ({ categoriesTilesData } : CategoryGridProps) => {
 
     const [isExpanded, setIsExpanded] = useState(false);
     const mappedCategoriesTitles = useMemo(() => {
         return categoriesTilesData.map((item) => (
+            //Container of CategoryTile element is styled in CategoryGrid component
+            //soo I could easier manage responsivness of the grid and tile element.
             <React.Fragment key={item.title}>
                     <CategoryTile 
                         className='
@@ -24,7 +28,7 @@ const CategoryGrid = () => {
                     />
             </React.Fragment>
         ))
-    }, []);
+    }, [categoriesTilesData]);
 
   return (
     <div className='flex flex-col items-center'>
