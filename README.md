@@ -22,12 +22,12 @@ npm install
 yarn install
 ```
 
-[!NOTE]
-Highlights information that users should take into account, even when skimming.
+> [!NOTE]
+> PAGE COMPONENT ARE FULLY RESPONSIVE !
 
 ## Task components
 
 Main components, which grid is builded from, are located in: <br/>
  • `src/components/CategoryTile` - this element contains icon, category title and is linked to "https://www.finder.com.au/" <br/>
- • `src/components/CategoryGrid` - this element generate flex grid from CategoryTitle.tsx elements.
+ • `src/components/CategoryGrid` - this element generate flex grid from `CategoryTitle.tsx` elements. </br>
 
