@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useMemo, useState } from 'react'
-import { TCategoryTileElements } from '@/lib/categoriesTilesData'
+import { TCategoryTileElements } from '@/lib/const/categoriesTilesData'
 import CategoryTile from '../CategoryTile'
 import { IoIosArrowUp } from 'react-icons/io'
 

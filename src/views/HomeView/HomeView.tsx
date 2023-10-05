@@ -1,6 +1,6 @@
 import CategoryGrid from '@/components/CategoryGrid'
 import React from 'react'
-import { categoriesTilesData } from '@/lib/categoriesTilesData'
+import { categoriesTilesData } from '@/lib/const/categoriesTilesData'
 import InfoSection from '@/components/InfoSection'
 import FillerElement from '@/components/FillerElement'
 

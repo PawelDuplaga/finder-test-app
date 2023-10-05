@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import { TCategoryTileElements } from '@/lib/categoriesTilesData'
+import { TCategoryTileElements } from '@/lib/const/categoriesTilesData'
 import Link from 'next/link'
 
 type CategoryTileProps = {
