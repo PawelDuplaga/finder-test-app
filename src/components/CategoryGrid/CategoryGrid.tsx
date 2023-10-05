@@ -37,9 +37,9 @@ const CategoryGrid = ({ categoriesTilesData } : CategoryGridProps) => {
                 {mappedCategoriesTitles}       
             </div>
         </div>
-        <button className='text-blue-500 mt-4 flex flex-row gap-2 items-center' onClick={() => setIsExpanded((current) => !current)}>
+        <button className='text-blue-500 mt-6 flex flex-row gap-2 items-center' onClick={() => setIsExpanded((current) => !current)}>
             { isExpanded ? "Show less categories" : "Show more categories" }
-            <IoIosArrowUp className={`transition ${isExpanded ? 'rotate-180' : 'rotate-0'}`}/>
+            <IoIosArrowUp className={`transition ${isExpanded ? 'rotate-0' : 'rotate-180'}`}/>
         </button>
     </div>
   )
