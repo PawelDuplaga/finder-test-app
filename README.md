@@ -29,12 +29,12 @@ yarn install
 > PAGE COMPONENTS ARE FULLY RESPONSIVE !
 </br>
 
-### Main components, which grid is builded from, are located in: <br/>
+### Main components, which grid is builded from, are located in:
  • `src/components/CategoryTile` - this element contains icon, category title and is linked to "https://www.finder.com.au/" <br/>
  • `src/components/CategoryGrid` - this element generate flex grid from `CategoryTitle.tsx` elements. </br>
 
-#### HomePage view is loacted in `src/views/HomeView`
-#### Needed constant values are located in `src/lib/const/categoriesTilesData.ts`
+`HomePage` view is loacted in `src/views/HomeView` </br>
+Needed constant values are located in `src/lib/const/categoriesTilesData.ts` </br>
 
 > [!IMPORTANT]
 > Other elements are purely cosmetical and were made for better [live](https://finder-test-app-two.vercel.app/) task presentation
