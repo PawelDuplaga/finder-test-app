@@ -31,7 +31,15 @@ const CategoryGrid = ({ categoriesTilesData } : CategoryGridProps) => {
     }, [categoriesTilesData]);
 
   return (
-    <div className='flex flex-col items-center'>
+    <div className='flex flex-col items-center w-full'>
+        <div className="flex flex-col w-[min(96%,1120px)] mt-12">
+            <h2 className='font-bold text-[24px] sm:text-[32px] text-[#18304b] leading-tight'>
+                Join 2 million+ Australians finding better
+            </h2>
+            <p className='font-medium text-[16px] sm:text-[20px] text-[#6c7881] leading-normal mt-[10px]'>
+                Finder&apos;s team of 40+ experts will help you find the right choices in over 100 categories.
+            </p>
+        </div>
         <div className={`max-w-[1120px] flex flex-col overflow-hidden transition ${isExpanded ? 'h-auto' : 'h-[360px] sm:h-[120px]'}`}>
             <div className='flex flex-wrap justify-between'>
                 {mappedCategoriesTitles}       
