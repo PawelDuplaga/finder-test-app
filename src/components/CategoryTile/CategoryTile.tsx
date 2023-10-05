@@ -13,7 +13,7 @@ const CategoryTile = ({ categoryTileProps, className } : CategoryTileProps) => {
     const { icon, title, href } = categoryTileProps;
 
     return (
-        <Link className={className} href={href}>
+        <Link className={className} href={href} target='_'>
             <div className='flex flex-col gap-1 justify-center items-center w-full h-full p-1'>
                 <Image 
                     src={icon}
