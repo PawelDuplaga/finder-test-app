@@ -22,6 +22,12 @@ npm install
 yarn install
 ```
 
+To run project locally run command :
+```bash
+npm run dev
+```
+
+Project should start on `http://localhost:3000/`
 
 ## About Project
 Project was made using [`Next.js`](https://nextjs.org/) framework with Typescript. For styling I used [`tailwind`](https://tailwindcss.com/).
