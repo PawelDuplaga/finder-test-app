@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app@latest`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## LIVE PREVIEW
+You can see [this project](https://finder-test-app-two.vercel.app/) live,  deployed on [Vercel](https://vercel.com)
+```
+https://finder-test-app-two.vercel.app/
+```
 ## Getting Started
 
-First, run the development server:
+First, clone github repository with this command:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/PawelDuplaga/finder-test-app.git
+```
+Then go to project folder:
+```bash
+cd finder-test-app
+```
+And download needed dependencies:
+```bash
+npm install
+#or
+yarn install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+[!NOTE]
+Highlights information that users should take into account, even when skimming.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Task components
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Main components, which grid is builded from, are located in: <br/>
+ • `src/components/CategoryTile` - this element contains icon, category title and is linked to "https://www.finder.com.au/" <br/>
+ • `src/components/CategoryGrid` - this element generate flex grid from CategoryTitle.tsx elements.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
