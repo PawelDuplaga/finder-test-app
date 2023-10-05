@@ -23,18 +23,22 @@ yarn install
 ```
 
 
+## About Project
+Project was made using [`Next.js`](https://nextjs.org/) framework with Typescript. For styling I used [`tailwind`](https://tailwindcss.com/).
+Project is using [App Router](https://nextjs.org/docs/app) from Next.js. In `page.tsx` located in `src/app` i just import main view - HomeView.
+All components are located in `src/components`.
+
 ## Task components
 
 > [!NOTE]
 > PAGE COMPONENTS ARE FULLY RESPONSIVE !
-</br>
 
 ### Main components, which grid is builded from, are located in:
  • `src/components/CategoryTile` - this element contains icon, category title and is linked to "https://www.finder.com.au/" <br/>
  • `src/components/CategoryGrid` - this element generate flex grid from `CategoryTitle.tsx` elements. </br>
 
-`HomePage` view is loacted in `src/views/HomeView` </br>
-Needed constant values are located in `src/lib/const/categoriesTilesData.ts` </br>
+HomePage view is loacted in `src/views/HomeView` </br>
+Constant values are located in `src/lib/const/categoriesTilesData.ts` </br>
 
 > [!IMPORTANT]
 > Other elements are purely cosmetical and were made for better [live](https://finder-test-app-two.vercel.app/) task presentation
